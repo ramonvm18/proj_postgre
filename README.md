@@ -34,7 +34,7 @@
 
 -------------------------------------------------------
 
-##Pontos relevantes:
+## Pontos relevantes:
 
 - As matrículas não foram usadas como chave primária pois normalmente a chave primaria é usada mais para controle interno, então foi utilizado um id em cada tabela, e a matrícula foi usada como um campo único;
 
