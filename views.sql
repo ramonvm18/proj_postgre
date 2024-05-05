@@ -34,7 +34,7 @@ GROUP BY u.nm_unidade;
 
 
 
-select concat(nm_aluno, ' - ', cd_email) AS "Nome e Matricula"
+select concat(nm_aluno, ' - ', cd_email) AS "Nome e Email"
 from tb_aluno;
 
 
