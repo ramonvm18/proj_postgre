@@ -38,7 +38,7 @@
 
 - As matrículas não foram usadas como chave primária pois normalmente a chave primaria é usada mais para controle interno, então foi utilizado um id em cada tabela, e a matrícula foi usada como um campo único;
 
-- Entre algumas alternativas na modelagem foi utilizar uma tabela Contratados que serviria tanto para professores como funcionários, mas levando em conta um cenário futuro onde seja inserido algum campo que seja útil somente para professor, por exemplo, isso faria com que seja mais adequado uma tabela para cada um;
+- Entre algumas alternativas possíveis na modelagem é utilizar uma tabela Contratados que serviria tanto para professores como funcionários, mas levando em conta um cenário futuro onde seja inserido algum campo que seja útil somente para professor, por exemplo, isso faria com que seja mais adequado uma tabela para cada um;
 
 - Para buscar algumas informações relevantes foi utilizado views, selects, joins, concat e group by;
 
